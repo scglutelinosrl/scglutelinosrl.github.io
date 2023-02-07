@@ -1,0 +1,416 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.6;
+}
+
+.body{
+	background: url(back.jpg) no-repeat;
+	background-size: cover;
+	background-position: center;
+	height: 100vh;
+}
+
+button {
+  /* Variables */
+ --button_radius: 0.75em;
+ --button_color: #e8e8e8;
+ --button_outline_color: #000000;
+ font-size: 17px;
+ font-weight: bold;
+ border: none;
+ border-radius: var(--button_radius);
+ background: var(--button_outline_color);
+ margin-right: 30px;
+ width: 200px;
+}
+
+.button_top {
+ display: block;
+ box-sizing: border-box;
+ border: 2px solid var(--button_outline_color);
+ border-radius: var(--button_radius);
+ padding: 0.75em 1.5em;
+ background: var(--button_color);
+ color: var(--button_outline_color);
+ transform: translateY(-0.2em);
+ transition: transform 0.1s ease;
+}
+
+button:hover .button_top {
+  /* Pull the button upwards when hovered */
+ transform: translateY(-0.33em);
+}
+
+button:active .button_top {
+  /* Push the button downwards when pressed */
+ transform: translateY(0);
+}
+
+header {
+  background: whitesmoke;
+  padding: 1rem;
+}
+
+.logo{
+	width: 150px;
+	padding: 0px;
+	height: auto;
+	flex-flow: row;
+	display: flex;
+	align-items: center;
+	height: 100px;
+}
+
+.back{
+  margin-top: 150px;
+}
+
+.navbar{
+	display: flex;
+	justify-content: space-between;
+	height: 80px;
+}
+
+.navbar a{
+	font-size: 20px;
+	text-decoration: none;
+	color: darkred;
+}
+
+.navbar ul{
+	display: flex;
+  align-items: center;
+  font-size: 20px;
+}
+
+.navbar ul li{
+	list-style: none;
+}
+
+.custom-btn {
+  padding: 10px 25px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}
+
+.comanda a{
+	color: darkred;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+.center{
+	text-align: center;
+	color: darkred;
+	text-shadow: 1px 1px 2px red, 0 0 1em whitesmoke, 0 0 2em whitesmoke;
+}
+
+h1{
+	margin-bottom: 10px;
+	font-size: 45px;
+    font-family: sans-serif;
+}
+
+p{
+	font-size: 30px;
+	margin-bottom: 5px;
+	font-family: sans-serif;
+}
+
+.cream{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	margin-top: 462px;
+	background: #bda88c;
+	color: #5e5b57;
+}
+
+.despre h1{
+	font-size: 70px;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+	font-family:"Brush Script MT", cursive;
+
+}
+
+.despre h2{
+	font-size: 35px;
+	display: flex;
+	flex-direction: column;
+	text-align: center;
+	margin-top: 150px;
+	margin-right: 600px;
+	margin-left: 600px;
+}
+
+.despre{
+	background: url(food.jpg);
+	font-family:"Brush Script MT", cursive;
+	color: darkred;
+}
+
+.cum {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+	background: #bda88c;
+	color: #5e5b57;
+	margin-top: 150px;
+}
+
+.echipa h1{
+	font-size: 70px;
+	flex-direction: column;
+	display: flex;
+	text-align: center;
+	font-family:"Brush Script MT", cursive;
+	color: darkred;
+}
+
+
+
+.echipa{
+	background: url(food.jpg);
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+* {
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  width: 1200px;
+  justify-content: space-evenly;
+  margin-left: 350px;
+}
+.card {
+  margin: 5px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 2px 20px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
+  width: 450px;
+  display: inline-block;
+  height: 350px;
+
+}
+.card-header img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  align-items: c;
+  padding: 5px;
+  min-height: 200px;
+}
+
+.tag {
+  background: #cccccc;
+  border-radius: 50px;
+  font-size: 25px;
+  margin: 0;
+  color: #fff;
+  padding: 2px 10px;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.tag-purple {
+  background-color: #5e76bf;
+}
+.tag-pink {
+  background-color: #cd5b9f;
+}
+
+.card-body p {
+  font-size: 20px;
+  margin: 0 0 40px;
+}
+.card-body span{
+	text-align: center;
+}
+
+.user img {
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  margin-right: 10px;
+}
+.user-info h5 {
+  margin: 0;
+}
+.user-info small {
+  color: #545d7a;
+}
+
+.catalog h1{
+  font-size: 60px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center; 
+  color: darkred;
+}
+
+-----card produse----
+
+.produs{}
+
+
+.tits{
+	font-size: 50px;
+	text-align: center; 
+	font-family: "Lucida Handwriting",cursive;
+	color: darkred;
+	text-transform: uppercase;
+	text-shadow: 1px 1px 2px red, 0 0 1em whitesmoke, 0 0 2em whitesmoke;
+}
+
+.briosa{
+	display: inline-block;
+	vertical-align: middle;
+	align-items: center;
+	justify-content: space-evenly;
+}
+
+.pizza{
+	display: inline-block;
+	align-items: center;
+}
+
+.centru{
+ display: flex;
+ justify-content: space-evenly;
+ text-align: center;
+}
+
+.bimb{
+	background-color:darkred;
+}
+
+.bimb a{
+	text-decoration: none;
+	color: royalblue;
+}
+
+.btn-3 {
+  line-height: 39px;
+  padding: 0;
+  width: 450px;
+  font-size: 20px;
+}
+.btn-3:hover{
+  background: transparent;
+  color: #5e76bf;
+}
+.btn-3 span {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+.btn-3:before,
+.btn-3:after {
+  position: absolute;
+  content: "";
+  left: 0;
+  top: 0;
+  background: #5e76bf;
+  transition: all 0.3s ease;
+}
+.btn-3:before {
+  height: 0%;
+  width: 2px;
+}
+.btn-3:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3:hover:before {
+  height: 100%;
+}
+.btn-3:hover:after {
+  width: 100%;
+}
+.btn-3 span:before,
+.btn-3 span:after {
+  position: absolute;
+  content: "";
+  right: 0;
+  bottom: 0;
+  background: #5e76bf;
+  transition: all 0.3s ease;
+}
+.btn-3 span:before {
+  width: 2px;
+  height: 0%;
+}
+.btn-3 span:after {
+  width: 0%;
+  height: 2px;
+}
+.btn-3 span:hover:before {
+  height: 100%;
+}
+.btn-3 span:hover:after {
+  width: 100%;
+}
+
+.str img{
+	margin left: 400px;
+	display: flex;
+	align-items: center;
+}
+
+.cos{
+ color: black;
+ font-size: 50px;
+ display: flex;
+ align-items: center;
+ flex-direction: column;
+ margin-top: 100px;
+ text-shadow: 1px 1px 2px red, 0 0 1em whitesmoke, 0 0 2em whitesmoke;
+ font-family: "Lucida Handwriting",cursive;
+ text-transform: uppercase;
+}
+
+.cos button{
+	color: darkred;
+	margin-top: 60px;
+	margin-bottom: 45px;
+}
+
+.cos li{
+  color: darkred;
+}
+
+.shop{
+	background: url(sho.png) no-repeat ;
+	background-size: cover;
+}
+
+.adresa img{
+	width: fit-content;
+}
+
+.damn{
+	margin-left: 37em;
+	margin-top: 100px;
+}
+

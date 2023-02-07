@@ -1,0 +1,178 @@
+  <div class="catalog">
+         <h1>Catalog Produse</h1>
+    </div>
+   <h1 class="tits">Tort</h1> 
+   <div class="centru">
+  <div class="tort ">  
+  <div class="produs shop-item ">
+  <a href="site.html"></a>
+   <div class="card">
+     <div class="card-header">
+       <img src="tort.jpg"class="product-image" alt=""/>
+     </div>
+     <div class="card-body">
+       <span class="tag tag-purple shop-item-title">Tort fară gluten cu fructe si crema de vanilie</span>
+       <span class="product-price">106 lei</span>
+       <h4>
+           O combinatie clasică si blandă de vanilie ce se imbină cu exoticul gust de fructe de padure
+           Ingrediente:Blat , Cremă de vanilie , Sos de fructe de padure , Fructe de decor
+       </h4>
+       <ul>
+          <button class="custom-btn btn-3 add-to-cart" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+     </div>
+   </div>
+  </div>
+</div>
+ <div class="produs tort shop-item ">
+ <div class="card ">
+     <div class="card-header">
+       <img src="tort.png" class="product-image" alt=""/>
+     </div>
+     <div class="card-body">
+       <span class="tag tag-purple shop-item-title">Tort fară gluten cu ciocolată si zmeură</span>
+       <span class="product-price">155lei</span>
+       <h4>
+         Cele mai iubite arome de ciocolată fuzioneaza cu impecabilul gust de zmeura si iti ofera o capoderă culinară
+         Ingrediente: Blat, Mousse de ciocolată neagră/albă , Jeleu de Zmeură , Glzaură de ciocolată cu lapte/alba/neagră , Ciocolată Amaruie
+       </h4>
+        <ul>
+          <button class="custom-btn btn-3 add-to-cart" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+     </div>
+   </div>
+  </div>
+</div>
+</div>
+<h1 class="tits">Briose</h1>
+<div class="centru">
+ <div class="produs briosa shop-item">
+  <div class="briosa"> 
+
+  <div class="card">
+    <a href="site.html"></a>
+    <div class="card-header">
+      <img src="briose.jpg" class="shop-item-image" alt=""/>
+    </div>
+    <div class="card-body">
+      <span class="tag tag-purple shop-item-title">Brioșe cu afine fară gluten</span>
+      <span class="shop-item-price">6.50lei</span>
+      <h4>
+        Aceste Brioșe cu mici afine  cu suc violaceu și gust plăcut dulce acrișor te vor face sa te indragostești de ele la prima îmbucătură
+        Ingrediente: Zahăr, Lapte de migdale , Afine , Coaja de lămaie
+      </h4>
+        <ul>
+          <button class="custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+ <div class="produs briosa shop-item">
+  <div class="card">
+    <a href="site.html"></a>
+    <div class="card-header">
+      <img src="briosa.png" class="shop-item-image" alt=""/>
+    </div>
+    <div class="card-body">
+      <span class="tag tag-purple shop-item-title">Brioșe cu  ciocolată fara gluten</span>
+      <span class="shop-item-price">6.50lei</span>
+      <h4>
+        Un gust puternic de Ciocolată calmat de subtila aroma de banane reprezintă această gustare  perfectă
+        Ingrediente:Banane , Ouă ,Fulgi ciocolată, Sirop de agave
+      </h4>
+        <ul>
+          <button class="custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+</div>
+</div>
+<div>
+  <h1 class="tits">Pizza</h1>
+  <div class="centru">
+ <div class="produs shop-item">
+  <div class="card" >
+    <a href="site.html"></a>
+    <div class="card-header">
+      <img src="pizza.jpeg"class="shop-item-image" alt=""/>
+    </div>
+    <div class="card-body">
+      <span class="tag tag-purple shop-item-title">Pizza vegetariană fară Gluten</span>
+      <span class="shop-item-price">68.50lei</span>
+      <h4>
+       O pizza ce se simte ca o salată regală din secolul XVII combinată cu un blat făcut la fel ca in Italia
+       Ingrediente: Pasta de tomate nesarata cu busuioc și usturoi, Diverse Legume(ardei , roșii ,castraveți ,ciuperci , porumb etc)
+      </h4>
+        <ul>
+          <button class="custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+ </div>
+ <div class="produs shop-item">
+  <div class="card" >
+    <div>
+    <a href="site.html"></a>
+    <div class="card-header">
+      <img src="pizza.png" class="shop-item-image" alt=""/>
+    </div>
+    <div class="card-body">
+      <span class="tag tag-purple shop-item-title">Pizza cu piept de pui fară Gluten</span>
+      <span class="shop-item-price">56 lei</span>
+      <h4>   
+        O pizza mai ceva ca cea din Napoli, cu un blat subțire si cu pui ca cel din curtea bunicii
+        Ingrediente:Suc de roșii,Mozzarella,Piept de pui
+      </h4>
+        <ul>
+          <button class= "custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+  </div>
+  </div>
+</div>
+</div>
+</div>
+  <h1 class="tits">Strudel</h1>
+<div class="centru">
+ <div class="produs shop-item">
+  <div class="card" >
+    <a href="site.html"></a>
+    <div class="card-header">
+      <img src="strudel.jpeg" class="shop-item-image" alt="" />
+    </div>
+    <div class="card-body shop-item-details">
+      <span class="shop-item-title tag tag-purple "> Ştrudel cu afine fara Gluten</span>
+      <span class="shop-item-price">8,5 lei</span>
+      <h4>
+      Strudel cu afine ce aduce zambetul oricarei persoane,indiferent de zi si stare
+      Ingrediente:oua,unt,afine,miere,ricotta
+      </h4>
+        <ul>
+          <button class="custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+ </div>
+ <div>
+ <div class="produs shop-item">
+  <div class="card" >
+    <div class="card-header">
+      <img src="strudel.png"  class="shop-item-image" />
+    </div>
+    <div class="card-body">
+      <span class="tag tag-purple shop-item-title">Ștrudel cu mere fară Gluten</span>
+      <span class="shop-item-price">7,5 lei</span>
+      <h4>
+       Strudel de mere facut din cel mai mare drag al sufletului nostru,mai bun ca la mama acasa
+       Ingrediente:mere,unt,zahar,oua,drojdie,lamaie,rom
+      </h4>
+        <ul>
+          <button class="custom-btn btn-3 shop-item-button btn btn-primary" type="button"><span>Adauga in Cos</span></button>
+        </ul>
+    </div>
+  </div>
+ </div>
+</div>
+</div>
